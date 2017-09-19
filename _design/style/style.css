@@ -87,7 +87,7 @@ ul li {
 }
 
 .nav-bar .menu-item {
-  background-color: #009688;
+  background-color: #CCFF90;
   border-bottom: 1px solid #263238;
 }
 
@@ -99,12 +99,16 @@ ul li {
 }
 
 .nav-bar .menu-item:hover {
-  background-color: #4dB6ac;
+  background-color: #CCFF90;
   cursor: pointer;
 }
 
+.nav-bar .menu-item:hover a {
+  color: #555;
+}
+
 .nav-bar .menu-item:active {
-  background-color: #eceff1;
+  background-color: #c6ff00;
 }
 
 .nav-bar .menu-item:active a {
@@ -126,7 +130,7 @@ ul li {
     display: inline-block;
   }
   .nav-bar .menu-item:hover {
-    background-color: #009688;
+    background-color: #CCFF90;
   }
 }
 
@@ -171,7 +175,7 @@ ul li {
   color: #CCFF90;
   cursor: pointer;
   font-size: 2.2rem;
-  letter-spacing: -5px;
+  letter-spacing: -4px;
   line-height: 3.2rem;
   padding: 9px;
   text-shadow: 1px 1px 3px #263238;

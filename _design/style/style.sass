@@ -1,18 +1,19 @@
 // variables
 
-$fonts: Helvetica, Arial, sans-serif
 @font-face
   font-family: iconsFont
   src: url('../fonts/inventar.ttf')
 
+$fonts: Helvetica, Arial, sans-serif
 $icons: iconsFont
 $light-col: #eceff1
 $dark-col: #263238
 $dark-txt: #000
 $light-txt: #fff
 $nav-col: #00695c
-$nav-light: #009688
 $dark-grey: #555
+$faded-yellow: #CCFF90
+$bright-yellow: #c6ff00
 
 // normalize
 
@@ -98,7 +99,7 @@ ul
   z-index: 2
 
   .menu-item
-    background-color: $nav-light
+    background-color: $faded-yellow
     border-bottom: 1px solid $dark-col
 
     a
@@ -108,11 +109,14 @@ ul
       padding: 0 20px
 
     &:hover
-      background-color: #4dB6ac
+      background-color: $faded-yellow
       cursor: pointer
+      
+      a
+        color: $dark-grey
 
     &:active
-      background-color: $light-col
+      background-color: $bright-yellow
 
       a
         color: $dark-txt
@@ -132,7 +136,7 @@ ul
       display: inline-block
 
       &:hover
-        background-color: $nav-light
+        background-color: $faded-yellow
 
 // --- navigation end
 
@@ -169,16 +173,16 @@ ul
       color: $dark-txt
 
   &.logo-text
-    color: #CCFF90
+    color: $faded-yellow
     cursor: pointer
     font-size: 2.2rem
-    letter-spacing: -5px
+    letter-spacing: -4px
     line-height: 3.2rem
     padding: 9px
     text-shadow: 1px 1px 3px $dark-col
 
     &:hover
-      color: #c6ff00
+      color: $bright-yellow
 
 // --- main container end
 
