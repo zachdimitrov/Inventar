@@ -17,5 +17,5 @@ Web application for managing small companies possessions - computers, devices, c
 #### Created by
 
 name | nickname
---- | ---
+:--- | :---
 [Захари Димитров](https://telerikacademy.com/Users/ZachD) | **ZachD**  
