@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventar", "Inventar\Inventar.csproj", "{A6D25817-947B-4EFC-9B52-5273FF70D3BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventar.Tests", "Inventar.Tests\Inventar.Tests.csproj", "{C32447A7-4424-4A59-9757-D2FD5D5C8554}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6D25817-947B-4EFC-9B52-5273FF70D3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D25817-947B-4EFC-9B52-5273FF70D3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D25817-947B-4EFC-9B52-5273FF70D3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D25817-947B-4EFC-9B52-5273FF70D3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32447A7-4424-4A59-9757-D2FD5D5C8554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32447A7-4424-4A59-9757-D2FD5D5C8554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32447A7-4424-4A59-9757-D2FD5D5C8554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32447A7-4424-4A59-9757-D2FD5D5C8554}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
