@@ -6,11 +6,17 @@
 #### Project Description
 Web application for managing small companies possessions - computers, devices, chairs, desks and other items.
 
-#### Initial Plan
+#### User Roadmap
 
-#### Theme Design
+#### UI Design
 
 #### Architecture
+
+#### Public Part
+
+#### Private Part (Users only)
+
+#### Administration Part
 
 #### Models
 
