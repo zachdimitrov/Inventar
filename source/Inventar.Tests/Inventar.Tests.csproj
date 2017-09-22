@@ -92,9 +92,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Inventar\Inventar.csproj">
+    <ProjectReference Include="..\Inventar\Inventar.Web.csproj">
       <Project>{A6D25817-947B-4EFC-9B52-5273FF70D3BF}</Project>
-      <Name>Inventar</Name>
+      <Name>Inventar.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

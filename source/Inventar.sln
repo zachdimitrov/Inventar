@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventar", "Inventar\Inventar.csproj", "{A6D25817-947B-4EFC-9B52-5273FF70D3BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventar.Web", "Inventar\Inventar.Web.csproj", "{A6D25817-947B-4EFC-9B52-5273FF70D3BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventar.Tests", "Inventar.Tests\Inventar.Tests.csproj", "{C32447A7-4424-4A59-9757-D2FD5D5C8554}"
 EndProject
