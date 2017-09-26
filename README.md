@@ -12,6 +12,11 @@ Web application for managing small companies possessions - computers, devices, c
 
 #### Architecture
 
+** MVC architectural pattern - provided by ASP.NET app **
+- controllers  
+- models 
+- views  
+
 #### Public Part
 
 #### Private Part (Users only)
